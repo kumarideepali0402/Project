@@ -1,5 +1,5 @@
-const clickSound=new Audio("sounds/click.mp3");
-const winSound=new Audio("sounds/win.mp3");
+const clickSound=new Audio("./sounds/click.mp3");
+const winSound=new Audio("./sounds/win.mp3");
 
 
 let boxes=document.querySelectorAll(".box");
