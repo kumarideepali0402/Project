@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color:#e6e0e0;
+    font-family: Arial,sans-serif;
+    padding: 2rem;
+
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+
+    
+}
+
+#problem-set{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.78rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.problem-card{
+    max-width: 600px;
+    width: 90%;
+    border: transparent;
+    background-color: gainsboro;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.75rem;
+    padding: 1.5rem ;
+    margin: 1.5rem auto;
+    line-height: 25px;
+    transition: transform 0.3s ease;
+
+    
+}
+.problem-card:hover{
+    transform: scale(1.02);
+
+}
+
